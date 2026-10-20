@@ -398,7 +398,7 @@ function App() {
             <div className="hero-orbit orbit-two" />
             <img
               className="hero-food-photo"
-              src="/images/cravory-burger.png"
+              src={`${import.meta.env.BASE_URL}images/cravory-burger.png`}
               alt="Delicious burger served with golden fries"
               fetchPriority="high"
             />
